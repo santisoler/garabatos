@@ -96,6 +96,11 @@ section {
 
 .text-small {
   font-size: 14px;
+  margin-bottom: 10px;
+}
+
+section .row {
+  margin: 10px auto 10px auto;
 }
 
 footer {
