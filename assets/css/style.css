@@ -12,7 +12,8 @@ body {
 }
 
 main {
-  margin: 50px;
+  max-width: 85vw;
+  margin: auto;
 }
 
 a {
@@ -46,9 +47,12 @@ h3 {
 
 /* Navbar */
 nav {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px 80px 0px 80px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  /* padding: 10px 80px 0px 80px; */
+  max-width: 95vw;
+  margin: auto;
+  padding: 5% 10% 0% 10%;
   border-bottom: 2px solid #221e1e;
 }
 
@@ -69,6 +73,29 @@ nav .row {
   align-items: end;
 }
 
+@media (max-width: 50rem) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+}
+
+/* Larger than mobile screen */
+@media (max-width: 40rem) {
+  nav .row {
+    flex-direction: column;
+  }
+  nav .row .column {
+    text-align: center;
+  }
+  ul.contact-list {
+    justify-content: center;
+  }
+}
+
 /* Main */
 
 section {
@@ -86,12 +113,16 @@ section {
   margin-bottom: 40px;
 }
 
+img {
+  size: 100%;
+}
+
 .picture {
   background-color: #f4f1f1;
-  padding: 15px;
+  padding: 3%;
   text-align: center;
   box-shadow: 4px 4px 6px #221e1e;
-  margin: 5px 0px 5px 0px;
+  margin: 5% 0% 5% 0%;
 }
 
 .text-small {
@@ -99,13 +130,10 @@ section {
   margin-bottom: 10px;
 }
 
-section .row {
-  margin: 10px auto 10px auto;
-}
-
 footer {
-  margin: 0px 20px 0px 20px;
-  padding: 10px 80px 0px 80px;
+  max-width: 95vw;
+  margin: auto;
+  padding: 2% 5% 0% 5%;
   border-top: 2px solid #221e1e;
   text-align: center;
 }
