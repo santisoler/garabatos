@@ -1,0 +1,66 @@
+html {
+  font-size: 1.6rem;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: #f4d7d7;
+  color: #221e1e;
+  margin: auto;
+  font-family: 400;
+}
+
+a {
+  color: #221e1e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #ed6363;
+}
+
+.header-btm {
+  font-size: 0.7rem;
+
+}
+
+.header-btm:hover {
+  background-color: #ed6363;
+}
+
+header {
+  max-width: 90vw;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #221e1e;
+}
+
+.card-extras {
+  /* width: 10rem; */
+  font-size: 0.7rem;
+}
+
+.cafecito {
+  width: 10rem;
+  margin-bottom: 5rem;
+}
+
+footer {
+  max-width: 90vw;
+  margin: auto;
+  padding: 2% 5% 2% 5%;
+  border-top: 2px solid #221e1e;
+  text-align: center; 
+}
+
+footer p {
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 0.8rem;
+  }
+  
+}
