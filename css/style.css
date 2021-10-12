@@ -37,19 +37,22 @@ header {
 }
 
 .card-extras {
-  /* width: 10rem; */
   font-size: 0.7rem;
+}
+
+.padding {
+  padding-left: 15%;
+  padding-right: 15%;
+
 }
 
 .cafecito {
   width: 10rem;
-  margin-bottom: 5rem;
 }
 
 footer {
   max-width: 90vw;
   margin: auto;
-  padding: 2% 5% 2% 5%;
   border-top: 2px solid #221e1e;
   text-align: center; 
 }
@@ -62,5 +65,4 @@ footer p {
   html {
     font-size: 0.8rem;
   }
-  
 }
