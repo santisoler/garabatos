@@ -1,0 +1,43 @@
+year: '2021'
+site_name: Garabatos  
+site_source: aguspesce/garabatos
+site_author: Agustina Pesce
+language: es
+gallery_path: gallery
+ignore:
+  - README.md
+  - Makefile
+
+gallery:
+  - png: arbol.png
+    jpg: arbol.png
+    size: A4
+    height: 75
+    alt: ...
+  - png: torta.png
+    jpg: torta.png
+    size: A4
+  - png: arbol.png
+    jpg: arbol.png
+    size: A4
+  - png: torta.png
+    jpg: torta.png
+    size: A4  
+  - png: torta.png
+    jpg: torta.png
+    size: A4
+  - png: arbol.png
+    jpg: arbol.png
+    size: A4  
+  - png: torta.png
+    jpg: torta.png
+    size: A4  
+  - png: torta.png
+    jpg: torta.png
+    size: A4
+  - png: arbol.png
+    jpg: arbol.png
+    size: A4
+  - png: torta.png
+    jpg: torta.png
+    size: A4          

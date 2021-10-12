@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+  <!-- Garabatos -->
+  <section class="container mb-5">
+    <div class="row justify-content-between align-items-center">
+      {% for figure in config.gallery %}
+      <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">   
+         <div class="card h-{{figure.height}} shadow p-1 mb-5 rounded text-center card-extras">
+           <img src="gallery/{{figure.jpg}}" class="card-img-top" alt="{{figure.alt}}">
+           <div class="card-body">
+            <p class="card-text">
+              <a href="https://creativecommons.org/licenses/by/4.0/deed.es">
+                <i class="fab fa-creative-commons"></i>
+                <i class="fab fa-creative-commons-by"></i>
+              </a>
+              Tamaño: {{figure.size}}
+            </p>
+            <p class="card-text">
+              <i class="fas fa-file-download"></i>
+              <a href="gallery/thumbnails/amanecer.jpg">JPG</a> |
+              <a href="gallery/amanecer.png">PNG</a>
+            </p>
+          </div>
+        </div> 
+      </div> 
+      {% endfor %}
+      <!-- Future... -->
+      <div class="col-12 col-sm-6 col-md-4 justify-content-center text-center">  
+      <p>
+        <strong>
+          Próximamente se vienen más garabatos...<br>
+          ¡Date una vuelta la próxima semana!
+          <i class="far fa-smile-wink"></i>
+        </strong>
+      </p>
+      </div>
+    </div>
+    </section>
+
+  <!-- About garabatos -->
+  <section class="container mb-5" id="sobre-garabatos">
+    <div class="row align-items-center">
+      {% block content %}
+        {{ page.body | safe }}
+      {% endblock %}
+    </div>
+  </section>
+
+{% endblock %}
