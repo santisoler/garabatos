@@ -1,10 +1,11 @@
-
-help:
-	@echo "Commands:"
-	@echo ""
-	@echo "  png2jpg   convert png files to jpg"
-	@echo ""
+CONFIG=config.yml
 
 
-png2jpg:
-	for i in *.png ; do convert "$i" "thumbnails/${i%.*}.jpg" ; done
+all:
+	nene --config=$(CONFIG)
+
+serve:
+	nene --config=$(CONFIG) --serve
+
+clean:
+	rm -r _build
