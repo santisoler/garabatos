@@ -4,7 +4,7 @@ template: page.html
 ---
 
 
-<div class="col">
+<div class="col-12 col-sm-6">
 <div class="card text-center shadow p-2 mb-5 rounded">
 <div class="card-body">
 
@@ -20,7 +20,7 @@ Algunos de estos garabatos de origen propio, otros son algunos que me salieron m
 </div>
 </div>
 
-<div class="col">
+<div class="col-12 col-sm-6">
 <div class="card text-center shadow p-2 mb-5 rounded">
 <div class="card-body">
 
@@ -37,7 +37,7 @@ Si te gusta lo que hago, podés **colaborar invitándome un cafecito**...
     ><img
       class="cafecito btn"
       srcset="
-      https://cdn.cafecito.app/imgs/buttons/button_5.      https://cdn.cafecito.app/imgs/buttons/button_5_2x.      https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.    "
+      https://cdn.cafecito.app/imgs/buttons/button_5. https://cdn.cafecito.app/imgs/buttons/button_5_2x. https://cdn.cafecito.app/imgs/buttons/button_5_3.75x."
       src="https://cdn.cafecito.app/imgs/buttons/button_5.png"
       alt="Invitame un café en cafecito.app"/>
   </a>
