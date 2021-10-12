@@ -9,35 +9,96 @@ ignore:
   - Makefile
 
 gallery:
+  - png: amanecer.png
+    jpg: thumbnails/amanecer.jpg
+    size: A5 (300ppp)
+    height: 
+    alt: Amanecer con montañas
   - png: arbol.png
-    jpg: arbol.png
-    size: A4
-    height: 75
-    alt: ...
-  - png: torta.png
-    jpg: torta.png
-    size: A4
-  - png: arbol.png
-    jpg: arbol.png
-    size: A4
-  - png: torta.png
-    jpg: torta.png
-    size: A4  
-  - png: torta.png
-    jpg: torta.png
-    size: A4
-  - png: arbol.png
-    jpg: arbol.png
-    size: A4  
-  - png: torta.png
-    jpg: torta.png
-    size: A4  
-  - png: torta.png
-    jpg: torta.png
-    size: A4
-  - png: arbol.png
-    jpg: arbol.png
-    size: A4
-  - png: torta.png
-    jpg: torta.png
-    size: A4          
+    jpg: thumbnails/arbol.jpg
+    size: A5 (300ppp)
+    alt: Arbol en colores violetas con una cascada de fondo
+  - png: arbol-2.png
+    jpg: thumbnails/arbol-2.jpg
+    size: A5 (300ppp)
+    alt: Arbol en colores azules con una la luna de fondo
+  - png: cactus.png
+    jpg: thumbnails/cactus.jpg
+    size: 2250x1688 px
+    alt: Cactus con montañas de fondo en colores naranjas  
+  - png: cafe.png
+    jpg: thumbnails/cafe.jpg
+    size: 2480x1754 px
+    alt: Cafe caliente con una medialuna y macarons
+  - png: cake.png
+    jpg: thumbnails/cake.jpg
+    size: 1754x2480 px
+    alt: Torta de cumpleaños de 3 pisos con frutillas
+  - png: camino.png
+    jpg: thumbnails/camino.jpg
+    size: 1754x2480 px
+    alt: Ruta que llega al horizonte con montañas
+  - png: casa.png
+    jpg: thumbnails/casa.jpg
+    size: 1754x2480 px
+    alt: Casa con montañas de fondo en colores grises 
+  - png: desierto.png
+    jpg: thumbnails/desierto.jpg
+    size: 2480x1754 px 
+    alt: Desierto con cactus en colores amarillos y naranjas
+  - png: fuego.png
+    jpg: thumbnails/fuego.jpg
+    size: 1754x2480 px 
+    alt: Fogata en la playa  
+  - png: galaxia.png
+    jpg: thumbnails/galaxia.jpg
+    size: 1600x1000 px 
+    alt: Montañas con una galaxia de fondo 
+  - png: iara.png
+    jpg: thumbnails/iara.jpg
+    size: 1754x2480 px
+    alt: Sirena que representa la leyenda brasilera de iara    
+  - png: impostor.png
+    jpg: thumbnails/impostor.jpg
+    size: 2480x1754 px 
+    alt: Una chica astronauta en la luna que sufre del sindrome del impostor       
+  - png: kokeshi.png
+    jpg: thumbnails/kokeshi.jpg
+    size: 128054x720 px 
+    alt: Dibujo de una muñequita kokeshi    
+  - png: lago.png
+    jpg: thumbnails/lago.jpg
+    size: A5 (300 ppp)
+    alt: Lago con juncos   
+  - png: montaña-1.png
+    jpg: thumbnails/montaña-1.jpg
+    size: A5 (300 ppp)
+    alt: Montañas nevadas con un lago 
+  - png: montaña-estrella.png
+    jpg: thumbnails/montaña-estrella.jpg
+    size: A5 (300 ppp)
+    alt: Paisaje nocturno con montañas y una nebulosa    
+  - png: playa-2.png
+    jpg: thumbnails/playa-2.jpg
+    size: 1600x1000 px
+    alt: Atardecer en una playa de Chile
+  - png: playa.png
+    jpg: thumbnails/playa.jpg
+    size: A5 (300 ppp)
+    alt: Paisaje de una playa con palmeras 
+  - png: playa3.png
+    jpg: thumbnails/playa3.jpg
+    size: 1754x2480 px 
+    alt: Paisaje de una playa con palmeras y una hamaca
+  - png: san-juan.png
+    jpg: thumbnails/san-juan.jpg
+    size: A5 (300 ppp) 
+    alt: Paisaje de una vista de las sierras de Zonda de San Juan, Argentina
+  - png: surf.png
+    jpg: thumbnails/surf.jpg
+    size: A5 (300 ppp)
+    alt: Chica surfeando
+  - png: totoro.png
+    jpg: thumbnails/totoro.jpg
+    size: A5 (300 ppp)
+    alt: Dibujo de totoro
