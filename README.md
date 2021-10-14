@@ -5,7 +5,17 @@ This is the source code for
 
 **On the website you will find artistic part...**
 
-## License
+## Some background about how I build Garabatos website
+
+At first, I built the website using HTML and CSS. 
+So, to add a drawing I need to repeat the code for each drawing. 
+This was annoying, and it was very easy to make mistakes. 
+
+One day, [Nēnē](https://nene.leouieda.com/) was created, which is a static site generator. 
+Now adding a new drawing is more efficient.
+I just add the path and information of the drawing in a yml file. 
+
+# License
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
