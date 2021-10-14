@@ -3,7 +3,7 @@
 This is the source code for
 [aguspesce.github.io/garabatos](https://aguspesce.github.io/garabatos).
 
-**On the website you will find artistic part...**
+**On the website you will find my artistic part...**
 
 ## Some background about how I build Garabatos website
 
